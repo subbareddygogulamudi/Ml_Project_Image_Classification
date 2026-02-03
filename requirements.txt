@@ -30,7 +30,6 @@ narwhals==2.13.0
 nest-asyncio==1.6.0
 nltk==3.9.2
 numpy==2.3.5
-opencv-python==4.13.0.90
 opencv-python-headless==4.8.1.78
 packaging==25.0
 pandas==2.3.3
@@ -69,4 +68,5 @@ urllib3==2.6.1
 watchdog==6.0.0
 wcwidth==0.2.14
 xgboost==3.1.3
+
 
