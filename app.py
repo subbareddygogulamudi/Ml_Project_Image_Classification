@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 from PIL import Image
-import cv2
+
 
 # Load trained model
 with open("rf_pipe.pkl", "rb") as f:
@@ -37,4 +37,5 @@ if uploaded_file is not None:
     predicted_label = model.predict(img_flat)[0]
 
     st.subheader("Prediction Result")
+
     st.success(f"Predicted Class: {predicted_label}")
